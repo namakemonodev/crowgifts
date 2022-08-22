@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    text-align: center;
+    color: #D3D3D3;
+}
+
+body {
+    background-color: #556B2F;
+}
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: 'Josefin Slab', serif;
+}
+
+#forest {
+    background-image: url(forest-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    align-items: flex-end;
+    justify-items: center;
+    background-color: transparent;
+
+}
+
+ul {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    height: 15rem;
+    background-color: transparent;
+    margin: 3rem;
+}
+
+button {
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: 'Acme', sans-serif;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    background-color: #FFFAF0;
+    color: #556B2F;
+}
+
+button:active {
+    background-color: #8B4513;
+    color: white;
+}
